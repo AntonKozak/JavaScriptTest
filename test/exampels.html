@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="exampels.css">
+  </head>
+  <body>
+    <!-- // Пример 1 //-->
+    <p>Пример 1</p>
+    <label><input id="one" type="checkbox" onchange="fun1()" /> CheckBox</label>
+
+    <!-- // Пример 2 //-->
+    <p>Пример 2</p>
+    <input type="radio" name="r1" value="5" /> 0
+    <input type="radio" name="r1" value="52" /> 1
+    <input type="radio" name="r1" value="53" /> 2
+    <button onclick="fun2()">Chekc element</button>
+    <!-- // Пример 3 //-->
+    <p>Пример 3</p>
+    <select name="" id="mySelect" onchange="fun3()">
+      <option value="">Apple</option>
+      <option value="">Orange</option>
+      <option value="">Pineapple</option>
+      <option value="">Banana</option>
+    </select>
+
+    <!-- // Пример 4 //-->
+    <p>Пример 4</p>
+    <input type="range" min="0" max="100" step="2" oninput="fun4()" id="r4" />
+    <p id="four"></p>
+
+    <!-- // Пример 5 //-->
+    <p>.............Пример 5</p>
+    <input type="range" min="0" max="100" step="2" oninput="fun5()" id="r5" />
+    <input type="text" id="i5" />
+
+    <!-- // Пример 6 //-->
+    <p>Пример 6</p>
+    <input type="range" min="0" max="100" step="2" oninput="fun6()" id="r6" />
+    <div id="test"></div>
+
+    <!-- ////////////////// Пример 7 ///////////////////-->
+    <p> ............Пример 7 </p>
+     <div id="nav">
+        
+        <div class='menu-item'> Menu
+            <div class="submenu">Items</div></div>
+            
+        <div class='menu-item'>Menu
+            <div class="submenu">Items</div></div>
+        
+        <div class='menu-item'>Menu
+            <div class="submenu">Items</div></div>
+
+    </div>
+
+
+       <!-- ////////////////// Пример 8 ///////////////////-->
+       <p> Пример 8 (https://www.youtube.com/watch?v=wePps7o4ajs) </p>
+<div id="tabs">
+    <div class="tab whiteborder">Tab 1</div>
+    <div class="tab">Tab 2</div>
+    <div class="tab">Tab 3</div>
+    <div class="tabContent">1</div>
+    <div class="tabContent">2</div>
+    <div class="tabContent">3</div>
+</div>
+
+    <script src="exampels.js"></script>
+  </body>
+</html>
+

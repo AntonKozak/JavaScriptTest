@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <p>Execise 1</p>
+    <div class="block1">
+        <p>Верхний левый
+          <input type="range" id="rtl" min="0" max="100" value="0" class="test" oninput="fun1()">
+          <input type="text" id="ttl" value="0">
+        </p>
+  
+        <p>Верхний правый
+          <input type="range" id="rtr" min="0" max="100" value="0" class="test" oninput="fun1()">
+          <input type="text" id="ttr" value="0">
+        </p>
+  
+        <p>Нижний левый
+          <input type="range" id="rbl" min="0" max="100" value="0" class="test" oninput="fun1()">
+          <input type="text" id="tbl" value="0">
+        </p>
+  
+        <p>Нижний правый
+          <input type="range" id="rbr" min="0" max="100" value="0" class="test" oninput="fun1()">
+          <input type="text" id="tbr" value="0">
+        </p>
+      </div>
+      <div id="block"></div>
+
+      <p>Execise 2</p>
+      <button id="click"> Open Modal</button>
+      <div id="myModal" class="modal">
+          <div class="modal-content">
+              <span class="close">&times;</span>
+              <p>Modal window!</p>
+          </div>
+      </div>
+
+      <p>Execise 3</p>
+      
+      
+      <p>
+          <button onclick="myMove()"> Animation</button>
+    </p>
+
+    <div id="myContainer">
+    <div id="myAnimation"></div>
+    </div>
+
+    <p>Execise 4</p>
+    
+    <script src="index.js"></script>
+</body>
+</html>
